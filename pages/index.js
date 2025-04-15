@@ -13,16 +13,15 @@ export default function HomePage() {
       <main className="min-h-screen bg-green-950 text-gray-100 font-sans">
         <section className="py-24 px-6 text-center bg-green-900">
           <div className="flex justify-center mb-6">
-            <Image src={logo} alt="JBT Capital Management Logo" width={120} height={120} />
+            <Image src={logo} alt="JBT Capital Management Logo" width={480} height={480} />
           </div>
-          <h1 className="text-4xl font-bold mb-4">JBT CAPITAL MANAGEMENT</h1>
-          <p className="text-xl">Creating extraordinary returns amid global volatility</p>
+          <p className="text-xl">Generating extraordinary returns amid global volatility</p>
         </section>
 
         <section className="py-16 px-6 max-w-3xl mx-auto">
           <h2 className="text-2xl font-semibold mb-4">About Us</h2>
           <p className="text-lg">
-            We are experienced global macro investors deploying capital opportunistically to capture alpha around macro themes and events.
+           JBT Capital are experienced global macro investors deploying capital opportunistically to capture alpha around macro themes and events.
           </p>
         </section>
 
