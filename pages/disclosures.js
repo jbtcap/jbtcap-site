@@ -4,6 +4,7 @@ export default function Disclosures() {
   return (
     <>
       <Head>
+        <meta name="description" content="Disclosures | JBT Capital Management provides this website for informational purposes only. Nothing on this site constitutes investment advice." />
         <title>Disclosures | JBT Capital Management</title>
       </Head>
       <main className="min-h-screen bg-white text-gray-900 font-sans px-6 py-20 max-w-3xl mx-auto">
