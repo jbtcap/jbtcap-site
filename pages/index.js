@@ -11,9 +11,9 @@ export default function HomePage() {
       </Head>
 
       <main className="min-h-screen bg-white text-gray-900 font-sans">
-        <header className="bg-green-900 text-white py-6 px-6 flex justify-between items-center">
+        <header className="bg-[#0c2e24] text-white py-6 px-6 flex justify-between items-center fixed top-0 left-0 right-0 z-50">
           <div className="flex items-center">
-            <Image src={logo} alt="JBT Capital Management Logo" width={100} height={100} />
+            <Image src={logo} alt="JBT Capital Management Logo" width={400} height={400} />
           </div>
           <nav className="space-x-8 text-sm font-medium">
             <a href="#about" className="hover:text-green-300">About</a>
@@ -22,7 +22,7 @@ export default function HomePage() {
           </nav>
         </header>
 
-        <section className="py-32 px-6 text-center bg-green-900 text-white">
+        <section className="pt-48 pb-32 px-6 text-center bg-green-900 text-white">
           <h1 className="text-5xl font-bold mb-4">Generating extraordinary returns amid global volatility</h1>
         </section>
 
