@@ -38,7 +38,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-6">Our Performance</h2>
             <p className="text-lg">
-              Over the past 3 years, JBT Capital have generated a return of <strong>more than 50% annualy</strong> for our investors. While these have been extraordinary markets, we continue to see the Global Marco as a target-rich environment.
+              Over the past 3 years, JBT Capital have generated a return of <strong>more than 50% annualy</strong> for our investors. While these have been extraordinary markets, we continue to see Global Macro as a target-rich environment.
             </p>
           </div>
         </section>
