@@ -25,7 +25,7 @@ export default function HomePage() {
 
         
 
-        <section id="about" className="pt-[500px] py-20 px-6 max-w-3xl mx-auto">
+        <section id="about" className="pt-64 py-20 px-6 max-w-3xl mx-auto">
           <h2 className="text-3xl font-semibold mb-6">About Us</h2>
           <p className="text-lg animate-fade-in">
            JBT Capital are experienced global macro investors deploying capital opportunistically to capture alpha around macro themes and events.
@@ -34,7 +34,7 @@ export default function HomePage() {
 
         <hr className="border-t border-gray-300 mx-auto max-w-3xl" />
 
-        <section id="performance" className="py-20 px-6">
+        <section id="performance" className="py-20 px-6 max-w-3xl mx-auto">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-6">Our Performance</h2>
             <p className="text-lg">
@@ -45,7 +45,7 @@ export default function HomePage() {
 
         <hr className="border-t border-gray-300 mx-auto max-w-3xl" />
 
-        <section id="contact" className="py-20 px-6 max-w-2xl mx-auto">
+        <section id="contact" className="py-20 px-6 max-w-3xl mx-auto">
           <h2 className="text-3xl font-semibold mb-6">Contact Us</h2>
           <p className="text-lg">
             <a href="mailto:info@jbtcap.com" className="text-green-900 underline hover:text-green-700 transition duration-200">
@@ -56,6 +56,14 @@ export default function HomePage() {
 
         <footer className="py-10 text-center text-sm text-white bg-[#193A2B] px-4">
           &copy; {new Date().getFullYear()} JBT CAPITAL MANAGEMENT. All rights reserved.
+        <p className="mt-2">JBT Capital Management is a DBA of JBT Group LLC.</p>
+
+          <div className="mt-4 space-x-6">
+            <a href="/privacy" className="underline hover:text-green-300">Privacy Policy</a>
+            <a href="/terms" className="underline hover:text-green-300">Terms of Use</a>
+            <a href="/cookies" className="underline hover:text-green-300">Cookies</a>
+            <a href="/disclosures" className="underline hover:text-green-300">Disclosures</a>
+          </div>
         </footer>
       </main>
     </>
