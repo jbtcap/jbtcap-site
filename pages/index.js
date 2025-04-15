@@ -28,7 +28,7 @@ export default function HomePage() {
         <section id="about" className="pt-64 py-20 px-6 max-w-3xl mx-auto">
           <h2 className="text-3xl font-semibold mb-6">About Us</h2>
           <p className="text-lg animate-fade-in">
-           JBT Capital are experienced global macro investors deploying capital opportunistically to capture alpha around macro themes and events.
+           JBT Capital are experienced global macro investors deploying capital opportunistically to capture alpha around macro themes and events. While the geopolitical newsflow can seem relentless, we believe there has never been a more exciting time to invest in Global Macro. Across FX, rates, bonds and equities, we seek out the best opportunities for our investors.
           </p>
         </section>
 
@@ -38,7 +38,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl font-semibold mb-6">Our Performance</h2>
             <p className="text-lg">
-              Over the past 3 years, we have returned more than <strong>55% per year</strong> to our investors.
+              Over the past 3 years, JBT Capital have generated a return of <strong>more than 50% annualy</strong> for our investors. While these have been extraordinary markets, we continue to see the Global Marco as a target-rich environment.
             </p>
           </div>
         </section>
