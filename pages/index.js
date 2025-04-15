@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <Head>
         <title>JBT Capital Management</title>
-        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
 
       <main id="top" className="min-h-screen bg-white text-gray-900 font-sans scroll-smooth">
@@ -58,6 +58,10 @@ export default function HomePage() {
           &copy; {new Date().getFullYear()} JBT CAPITAL MANAGEMENT. All rights reserved.
         </footer>
       </main>
+    </>
+  );
+}
+
     </>
   );
 }
