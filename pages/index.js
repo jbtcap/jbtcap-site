@@ -23,9 +23,6 @@ export default function HomePage() {
   </nav>
 </header>
 
-
-        </header>
-
         
 
         <section id="about" className="py-20 px-6 max-w-3xl mx-auto">
