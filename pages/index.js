@@ -10,7 +10,7 @@ export default function HomePage() {
         <link rel="icon" href="/logo.png" type="image/png" />
       </Head>
 
-      <main className="min-h-screen bg-green-950 text-gray-100 font-sans">
+      <main className="min-h-screen bg-white text-gray-900 font-sans">
         <section className="py-24 px-6 text-center bg-green-900">
           <div className="flex justify-center mb-6">
             <Image src={logo} alt="JBT Capital Management Logo" width={480} height={480} />
@@ -25,7 +25,7 @@ export default function HomePage() {
           </p>
         </section>
 
-        <section className="py-16 px-6 bg-green-800">
+        <section className="py-16 px-6 bg-green-900">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-semibold mb-4">Our Performance</h2>
             <p className="text-lg">
@@ -43,7 +43,7 @@ export default function HomePage() {
           </p>
         </section>
 
-        <footer className="py-6 text-center text-sm text-gray-400 border-t">
+        <footer className="py-6 text-center text-sm text-gray-400 border-t bg-green-900">
           &copy; {new Date().getFullYear()} JBT CAPITAL MANAGEMENT. All rights reserved.
         </footer>
       </main>
